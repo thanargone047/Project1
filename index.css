@@ -1,33 +1,114 @@
 *{
-    padding: auto;
-    margin: auto;
-    background-color: rgba(253, 253, 253, 0.938);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(211, 232, 246);
 
 }
 
-form{
+body{
+    text-align: center;
+}
+
+.namepage{
+    background-color: rgb(13, 81, 216);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 150px;
+    font-weight: 40px;
+    border-style: double;
+    box-shadow: 40px;
+    color: oklab(83.92699999999999% -0.06128 0.17061 / 0.925);
+    text-shadow: 6px;
+    -webkit-text-stroke: 1.3px rgba(9, 3, 3, 0.782);
+    box-shadow: 0 0 20px rgba(197, 199, 218, 0.933);
+    text-shadow: 0 0 28px rgb(143, 149, 228);
+}
+
+.container{
+    margin-top: 40px;
+    margin: 10px;
+    padding: 60px;
+    display: inline-block;
+    align-items: center;
+    text-align: left;
+}
+
+.selecter-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 70px;
+}
+
+.selecter-part label{
+    width: 220px;
+    font-weight: 1000;
+    font-size: 20px;
+    flex-direction: column;
+    word-spacing: 5px;
+}
+
+.selecter-part select{
+    width: 600px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(245, 240, 232);
+    font-size: 20px
+}
+
+.selecter-part option{
+    background-color: aliceblue;
+    text-align: center;
+    font-weight: 600;
+}
+.submit{
+    margin: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.submit button{
     text-align: center;
     align-items: center;
-    border-spacing: 2px;
+    justify-content: center;
+    background: none;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(11, 168, 11, 0.933);
+    font-size: larger;
+    letter-spacing: 2px;
+    border-radius: 10px;
 }
 
-div{
-    background-color: rgb(239, 119, 250);
+.footer{
+    background-color: rgb(33, 32, 32);
+    margin: 0;
+    padding: 20px;
+    text-decoration: underline;
     text-align: center;
-    font-size: 150px;
-    box-sizing: border-box;
-    margin: 100px;
-    font-weight: 50px;
-    border-style: double;
-    box-shadow: 12px;
-}
-label{
-    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    height: 20vh;
+    color: #fff;
+    
 }
 
-select{
-    margin: 10px;
-    padding: 2px;
-    border-color: rgb(54, 167, 182);
-    box-sizing: border-box;
+.footer h1{
+    background-color:rgb(33, 32, 32);
+    color: white;
+    font-weight: 900;
 }
+
+p{
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 80px;
+
+}
+

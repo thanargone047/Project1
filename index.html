@@ -9,60 +9,75 @@
 <body>
     <div  class="namepage" id="namepage">JT Mobile</div>
     <form>
-        <label for="title">select your IPhone</label>
-        <select name="Title" id="select" required>
-            <option value="disabled selected">--select--</option>
-            <option value="IPone5">IPhone5</option>
-            <option value="IPhone5s">IPhone5s</option>
-            <option value="IPhone6">IPhone6s</option>
-            <option value="IPhone7">IPhone7</option>
-            <option value="IPhone7Plus">IPhone7Plus</option>
-            <option value="IPhone8">IPhone8Plus</option>
-            <option value="IPhoneX">IPhoneX</option>
-            <option value="IPhoneXR">IPhoneXR</option>
-            <option value="IPhoneXS">IPhoneXS</option>
-            <option value="IPhoneXSmax">IPhoneXSMax</option>
-            <option value="IPhone11">IPhone11</option>
-            <option value="IPhone11Pro">IPhone11Pro</option>
-            <option value="IPhone11ProMax">IPhone11ProMax</option>
-            <option value="IPhone12">IPhone12</option>
-            <option value="IPhone12mini">IPhone12mini</option>
-            <option value="IPhone12Pro">IPhone12Pro</option>
-            <option value="IPhone12ProMax">IPhone12ProMax</option>
-            <option value="IPhone13">IPhone13</option>
-            <option value="IPhone13mini">IPhone13mini</option>
-            <option value="IPhone13Pro">IPhone13Pro</option>
-            <option value="IPhone13ProMax">IPhone13ProMax</option>
-            <option value="IPhone14">IPhone14</option>
-            <option value="IPhone14Plus">IPhone14Plus</option>
-            <option value="IPhone14Pro">IPhone14Pro</option>
-            <option value="IPhone14ProMax">IPhone14ProMax</option>
-            <option value="IPhone15">IPhone15</option>
-            <option value="IPhone15Plus">IPhone15Plus</option>
-            <option value="IPhone15Pro">IPhone15Pro</option>
-            <option value="IPhone15ProMax">IPhone15ProMax</option>
-            <option value="IPhone16">IPhone16</option>
-            <option value="IPhone16e">IPhone16e</option>
-            <option value="IPhone16Pro">IPhone16Pro</option>
-            <option value="IPhone16ProMax">IPhone16ProMax</option>
-        </select>
-        <br>
-        <label for="Display">Display</label>
-        <select name="Display" id="select" required>
-            <option value="ORG">Original</option>
-            <option value="OLED">Oled</option>
-            <option value="INCELL">Icell</option>
-        </select>
-        <br>
-        <label for="Battery">Battery</label>
-        <select name="Battery" id="select" requireds>
-            <option value="ORG">Original</option>
-            <option value="Leeplus">Leeplus</option>
-            <option value="Jamemax">Jamemax</option>
-        </select>
-        <br>
-
+        <div class="container" id="container">
+            <div class="selecter-part">               
+                <label for="title">Select your IPhone</label>
+                <select name="Title" id="select" required>
+                <option value="0">- - select - -</option>
+                <option value="0">IPhone5</option>
+                <option value="0">IPhone5s</option>
+                <option value="0">IPhone6s</option>
+                <option value="0">IPhone7</option>
+                <option value="0">IPhone7 Plus</option>
+                <option value="0">IPhone8 Plus</option>
+                <option value="0">IPhoneX</option>
+                <option value="0">IPhoneXR</option>
+                <option value="0">IPhoneXS</option>
+                <option value="0">IPhoneXS Max</option>
+                <option value="0">IPhone11</option>
+                <option value="0">IPhone11 Pro</option>
+                <option value="0">IPhone11 Pro Max</option>
+                <option value="0">IPhone12</option>
+                <option value="0">IPhone12 mini</option>
+                <option value="0">IPhone12 Pro</option>
+                <option value="0">IPhone12 Pro Max</option>
+                <option value="0">IPhone13</option>
+                <option value="0">IPhone13 mini</option>
+                <option value="0">IPhone13 Pro</option>
+                <option value="0">IPhone13 Pro Max</option>
+                <option value="0">IPhone14</option>
+                <option value="0">IPhone14 Plus</option>
+                <option value="0">IPhone14 Pro</option>
+                <option value="0">IPhone14 Pro Max</option>
+                <option value="0">IPhone15</option>
+                <option value="0">IPhone15 Plus</option>
+                <option value="0">IPhone15 Pro</option>
+                <option value="0">IPhone15 Pro Max</option>
+                <option value="0">IPhone16</option>
+                <option value="0">IPhone16e</option>
+                <option value="0">IPhone16 Pro</option>
+                <option value="0">IPhone16 Pro Max</option>
+                </select>
+            </div>
+            <div class="selecter-part">
+                 <label for="Display">Display</label>
+                 <select name="Display" id="display" required>
+                 <option value="0">- - select - -</option>
+                 <option value="1000">Original-1,000&#3647;</option>
+                 <option value="800">Oled-800&#3647;</option>
+                 <option value="600">Icell-600&#3647;</option>
+                 </select>
+            </div>
+            <div class="selecter-part">
+                <label for="battery">Battery</label>
+                <select name="Battery" id="battery" requireds>
+                <option value="0">- - select - -</option>
+                <option value="1000">Original-1,000&#3647;</option>
+                <option value="800">Leeplus-800&#3647;</option>
+                <option value="300">Jamemax-300&#3647;</option>
+                </select>
+            </div>
+            <p id="total">Total: 0&#3647;</p>
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+        </div>
     </form>
-    
+    <footer>
+        <div class="footer">
+            <h1>CONTACT</h1>
+        </div>
+    </footer>
+    <script src="total.js"></script>
 </body>
 </html>
